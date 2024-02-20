@@ -1,4 +1,4 @@
-import BaseBusiness from "./base/baseBusiness";
+import BaseBusiness from "./base/baseBusiness.js";
 
 export default class OrderBusiness extends BaseBusiness {
   #order = new Set()

@@ -2,7 +2,7 @@ import { NotImplementedExcepetion } from "../../util/excepetions"
 
 export default class BaseBusiness {
   _validateRequiredFields(data) {
-    throw new NotImplementedExcepetion(this._validateRequiredFields(data).name)
+    throw new NotImplementedExcepetion(this._validateRequiredFields.name)
   }
   _create(data) {
     throw new NotImplementedExcepetion(this._create.name)
